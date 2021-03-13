@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="home page">
-        <div class="flex justify-between py-1 px-6">
+        <div class="flex justify-between py-1 px-12">
             <div class="px-2"><h1>Hello.</h1></div>
             <div class="justify-center mt-1">
                 <a class="mx-1" href="#home">Home</a>
@@ -40,56 +40,94 @@
                 </div>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nobis rerum consequuntur dolor necessitatibus, officia facere? At magni minima temporibus maxime.</p>
                  <div class="flex">
-                     <button type="button" class="bg-green txt-white px-2 py-1 border-none m-1">Connect With Me</button>
-                     <button class="bg-dark txt-white border-none px-2 py-1 border-green m-1">Hire Me</button>
+                     <button type="button" class="bg-green txt-white px-2 py-1 my-1 border-none m-1">Connect With Me</button>
+                     <button class="bg-dark txt-white border-none px-2 py-1 my-1 border-green m-1">Hire Me</button>
                  </div>
              </div>
              <div class="w-40 mt-2">
-                 <img class="border-round" src="/img/author.jpeg" style="width: 180px; height: 180px;" alt="Author's Image">
+                 <img class="border-round" src="/img/closeup.jpg" style="width: 200px; height: 200px; border-bottom: 10px solid rgb(37, 184, 37); border-left: 10px solid rgb(37, 184, 37);" alt="Author's Image">
              </div>
          </div>
     </div>
 
-    <div class="flex bg-dark-grey mt-4" id="about">
-        <div class="w-40">
-            <img class="border-half-circle" style="height: 200px; width: 170px;" src="/img/author.jpeg" alt="AuthorImage">
+    <div class="flex bg-dark-grey mt-4 px-12 pt-2" id="about">
+        <div class="portrait-img mt-2 image-shadow">
+            <!-- <img class="border-half-circle image-shadow" style="height: 330px; width: 220px; border-right: 10px solid rgb(37, 184, 37); border-top: 10px solid rgb(37, 184, 37);" src="/img/portrait.jpeg" alt="AuthorImage"> -->
+            <div class="portrait-txt bg-green flex">
+                    <span class="span-1" style="font-size: 2rem;">5</span>
+                    <span class="span-2" style="font-size: .8rem;">Years of Experience</span>
+            </div>
         </div>
-        <div class="flex flex-column">
-            <p class="txt-green">About Me</p>
-            <h2>Why Hire Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis earum aspernatur amet ad, saepe magnam laborum modi, consectetur ipsa qui! Praesentium ab velit repellat voluptate dignissimos reprehenderit officia aliquid.</p>
-            <div class="flex">
+        <div class="flex flex-column px-4 mt-2 py-1">
+            <p class="txt-green">About Me <i class="fas fa-arrow-right" style="width: 70px;"></i></p>
+            <h2>Story About Me</h2>
+            <p class="mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis earum aspernatur amet ad, saepe magnam laborum modi, consectetur ipsa qui! Praesentium ab velit repellat voluptate dignissimos reprehenderit officia aliquid.</p>
+            <div class="flex justify-between">
                 <div class="flex flex-column">
-                    <span><bold>Age:</bold> 24years</span>
-                    <span><bold>Phone:</bold>08034536454</span>
-                    <span><bold>Website:</bold>www.cherish.com</span>
+                    <span class="mt-1"><bold>Age:</bold> 24years</span>
+                    <span class="mt-1"><bold>Phone:</bold> 08034536454</span>
+                    <span class="mt-1"><bold>Website:</bold> www.cherish.com</span>
                 </div>
                 <div class="flex flex-column">
-                    <span><bold>Residence:</bold> Lagos</span>
-                    <span><bold>Email:</bold> randommail@cherish.com</span>
-                    <span><bold>Location:</bold> Lagos</span>
+                    <span class="mt-1"><bold>Residence:</bold> Lagos</span>
+                    <span class="mt-1"><bold>Email:</bold> randommail@cherish.com</span>
+                    <span class="mt-1"><bold>Location:</bold> Lagos</span>
                 </div>
             </div>
-            <div><button class="bg-dark-grey border-green txt-white px-2 py-1">Download CV</button></div>
+            <div><button class="bg-dark-grey border-green txt-white px-2 py-1 my-1">Download CV</button></div>
         </div>
     </div>
-    < class="" id="skills">
-        <p class="txt-green">randomtext</p>
-        <div class="flex flex-column">
-            <h2><span>Have 5+ Years</span> <span>Professional Experience</span></h2>
+    <div class="py-1 px-12" id="skills">
+        <div class="flex flex-column justify-center my-1 mt-2">
+            <p class="txt-green"><i class="fas fa-arrow-right"></i> My Skills <i class="fas fa-arrow-left"></i></p>
+            <h2>Have 5+ Years</h2> <h2>Professional Experience</h2>
         </div>
         <div class="flex">
             <div class="flex flex-column">
-                <div></div>
-                <div></div>
+                <div class="flex bg-dark-grey p-1 mx-1 my-1" style="width: 250px; height: 100px;">
+                    <div class="bg-dark p-1"><i class="fab fa-apple fa-2x"></i></div>
+                    <div class="p-1">
+                        <p>something goes here</p>
+                        <h4 class="">brand name goes here</h4>
+                    </div>
+                </div>
+                <div class="flex bg-dark-grey p-1 mx-1 my-1" style="width: 250px; height: 100px;">
+                    <div class="bg-dark p-1"><i class="fab fa-amazon fa-2x"></i></div>
+                    <div class="p-1">
+                        <p>something goes here</p>
+                        <h4>brand name goes here</h4>
+                    </div>
+                </div>
             </div>
             <div class="flex flex-column">
-                <div></div>
-                <div></div>
+                <div class="flex bg-dark-grey p-1 mx-1 my-1" style="width: 250px; height: 100px;">
+                    <div class="bg-dark p-1"><i class="fab fa-microsoft fa-2x"></i></div>
+                    <div class="p-1">
+                        <p>something goes here</p>
+                        <h4>brand name goes here</h4>
+                    </div>
+                </div>
+                <div class="flex bg-dark-grey p-1 mx-1 my-1" style="width: 250px; height: 100px;">
+                    <div class="bg-dark p-1"><i class="fas fa-car fa-2x"></i></div>
+                    <div class="p-1">
+                        <p>something goes here</p>
+                        <h4>brand name goes here</h4>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-column">
-                <div></div>
-                <div></div>
+            <div class="skills-bar px-2 py-1">
+                <div class="py-1">
+                    <h3>Product Design</h3><span class="bar" style="width: 300px;"></span><span class="product-design bar" style="background-color: rgb(37, 184, 37); width: 250px; margin-top: -4px;"></span>
+                </div>
+                <div class="py-1">
+                    <h3>User Experience</h3><span class="bar" style="width: 300px;"></span><span class="product-design bar" style="background-color: rgb(37, 184, 37); width: 220px; margin-top: -4px;" class="product-design"></span>
+                </div>
+                <div class="py-1">
+                    <h3>Web Development</h3><span class="bar" style="width: 300px;"></span><span class="product-design bar" style="background-color: rgb(37, 184, 37); width: 280px; margin-top: -4px;"></span>
+                </div>
+                <div class="py-1">
+                    <h3>Web Design</h3><span class="bar" style="width: 300px;"></span><span class="product-design bar" style="background-color: rgb(37, 184, 37); width: 270px; margin-top: -4px;"></span>
+                </div>
             </div>
         </div>
     </div>
