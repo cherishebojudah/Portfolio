@@ -22,7 +22,9 @@ a {
     border: 1px solid rgb(37, 184, 37);
     border-right: 15px solid rgb(37, 184, 37);
     border-top: 13px solid rgb(37, 184, 37);
-    background-image: url(../img/portrait.jpeg) no-repeat cover;
+    background-image: url(../img/portrait.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: flex-start;
     align-items: center;
