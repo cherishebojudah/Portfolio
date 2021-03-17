@@ -42,6 +42,11 @@ a {
     padding: 0 3px;
 }
 
+.mouse-hover:hover {
+    background-color: rgb(37, 184, 37);
+    color: #ffffff;
+}
+
 .border-round {
     border: 1px solid rgb(37, 184, 37);
     border-radius: 70%;
@@ -59,14 +64,14 @@ a {
 .border-green {
     border: 1px solid rgb(37, 184, 37);
 }
-
-.border-half-circle {
-   
-}
 /* 
 .image-shadow {
     box-shadow: inset 5rem 1rem rgb(37, 184, 37);
 } */
+
+.txt-small {
+    font-size: .750rem;
+}
 
 .txt-green {
     color: rgb(37, 184, 37);
@@ -106,6 +111,9 @@ a {
     align-items: center;
 }
 
+.txt-left {
+    text-align: left;
+}
 /* spacing */
 .m-1 {
     margin: .2rem;
